@@ -1,0 +1,19 @@
+{
+  "name": "dpit-sean-bradley",
+  "version": "1.0.0",
+  "description": "Samples from a Udemy course: Design Patterns in TypeScript by Sean Bradley.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./src -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Mindi Weik",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.1",
+    "node": "^20.4.0"
+  }
+}
