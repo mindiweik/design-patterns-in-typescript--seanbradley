@@ -15,7 +15,17 @@ Terms:
 - **Creator:** The Factory class itself which declares the method (Product Interface) to return the final object (Concrete Product).
 - **Concrete Product:** The final object that is created by the Factory (Creator -- using the Product Interface).
 
-2. 
+Examples: 
+- The `cooking-example` file showcases this pattern in the context of a client ordering some food from a restaurant.
+- The `onion-example` file shocases this pattern more in the context of "onion architecture" which is a way of organizing code into layers of abstraction. I've been working to learn this recently as well so I wanted to give it a shot!
+
+2. ABSTRACT FACTORY - 
+
+3. BUILDER -
+
+4. PROTOTYPE -
+
+5. SINGLETON -
 
 #### Structural
 Focuses more on how classes and objects are composed using the different structural techniques, and to form structures with more or altered flexibility.
