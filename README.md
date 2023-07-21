@@ -32,7 +32,6 @@ Terms:
 
 Examples:
 - The `plants-example`showcases an abstract factory (using the factory method) to create a set of plant options. The client can request a type of flower or tree and the abstract factory will return the object type requested.
-- The `-example`
 
 3. BUILDER -
 
