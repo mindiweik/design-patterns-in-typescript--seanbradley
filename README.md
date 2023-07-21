@@ -2,6 +2,8 @@
 
 This is my personal set of notes and examples created during the course [Design Patterns in TypeScript](https://www.udemy.com/course/design-patterns-typescript/) by Sean Bradley so that I may gain a better understanding of the concepts presented.
 
+A great additional resource I used to solidify my knowledge ofdesign patterns is [Refactoring Guru](https://refactoring.guru/design-patterns/catalog). 
+
 ### Design Patterns Overview
 
 #### Creational
@@ -16,10 +18,21 @@ Terms:
 - **Concrete Product:** The final object that is created by the Factory (Creator -- using the Product Interface).
 
 Examples: 
-- The `cooking-example` file showcases this pattern in the context of a client ordering some food from a restaurant.
-- The `onion-example` file shocases this pattern more in the context of "onion architecture" which is a way of organizing code into layers of abstraction. I've been working to learn this recently as well so I wanted to give it a shot!
+- The `cooking-example` folder showcases this pattern in the context of a client ordering some food from a restaurant.
+- The `onion-example` folder showcases this pattern more in the context of "onion architecture" which is a way of organizing code into layers of abstraction. I've been working to learn this recently as well so I wanted to give it a shot!
 
-2. ABSTRACT FACTORY - 
+2. ABSTRACT FACTORY - An additional layer of abstraction which can be added on top of other creational pattern implementations. It's essentially a factory for building out other "factories" or object creators. It's great for when you need to create a family of objects that are related to each other, and have similar but different implementations behind the scenes.
+
+Terms:
+- **Client:** This calls the Abstract Factory to create the objects, similar to the Concrete Creator.
+- **Abstract Factory:** A common interface over all of the sub factories.
+- **Concrete Factory:** There can be more than one in this type of pattern! This is a sub factory from the Abstract Factory. It will contain details (method(s), field(s), etc.) to create a Concrete Product.
+- **Abstract Product:** The interface and/or abstraction for the product the sub factory will create.
+- **Concrete Product:** The object that is finally returned.
+
+Examples:
+- The `plants-example`showcases an abstract factory (using the factory method) to create a set of plant options. The client can request a type of flower or tree and the abstract factory will return the object type requested.
+- The `-example`
 
 3. BUILDER -
 
