@@ -2,8 +2,6 @@
 
 This is my personal set of notes and examples created during the course [Design Patterns in TypeScript](https://www.udemy.com/course/design-patterns-typescript/) by Sean Bradley so that I may gain a better understanding of the concepts presented.
 
-A great additional resource I used to solidify my knowledge ofdesign patterns is [Refactoring Guru](https://refactoring.guru/design-patterns/catalog). 
-
 ### Design Patterns Overview
 
 #### Creational
@@ -33,7 +31,16 @@ Terms:
 Examples:
 - The `plants-example`showcases an abstract factory (using the factory method) to create a set of plant options. The client can request a type of flower or tree and the abstract factory will return the object type requested.
 
-3. BUILDER -
+3. BUILDER - A pattern allowing for the creation of complex objects separate from their representation. The same construction process can be used to create different representations of a simplified-as-possible complex object.
+
+Terms:
+- **Product:** The final object that is created by the Builder.
+- **Builder Interface:** The interface describing the attributes and methods the Concrete Builder class requires to create the final object (Product).
+- **Builder:** The Concrete Builder class itself. This declares the method (Builder Interface) to return the final object (Product).
+- **Director:** The class that will call the Builder to create the final object (Product) using a `construct()` method along with any other Builder-speficic methods.
+
+Examples:
+- The `dance-example` showcases a builder pattern to create a set of dances using the Builder pattern.
 
 4. PROTOTYPE -
 
@@ -44,3 +51,8 @@ Focuses more on how classes and objects are composed using the different structu
 
 #### Behavioral
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
+
+
+## References:
+- [Sean Bradley's website](https://sbcode.net/typescript/) provides the initial examples provided along with UML diagrams and explanations for the different patterns.
+- A great additional resource I used to solidify my knowledge of design patterns is [Refactoring Guru](https://refactoring.guru/design-patterns/catalog). 
