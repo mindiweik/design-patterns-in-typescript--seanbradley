@@ -28,6 +28,9 @@ console.log(`OBJ1: ${JSON.stringify(OBJ1)}`)
 const OBJ2 = OBJ1.clone() // clone
 console.log(`OBJ2: ${JSON.stringify(OBJ2)}`)
 
+// INVALID - We didn't return an instance of `MyClass`:
+// OBJ3 = OBJ2.clone()
+
 // Change the value of one of the array elements in OBJ2
 // Depending on your clone method, either a shallow or 
 // deep copy will be performed
