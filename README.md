@@ -50,7 +50,7 @@ Terms:
 - **Client:** The client uses and creates the Prototype.
 
 Examples:
-- 
+- The `goat-example` showcases a prototype pattern to make clones of goats with different names and colors which can be altered by the client using a shallow copy.
 
 5. SINGLETON -
 
