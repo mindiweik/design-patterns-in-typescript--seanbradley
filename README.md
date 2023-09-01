@@ -42,7 +42,15 @@ Terms:
 Examples:
 - The `dance-example` showcases a builder pattern to create a set of dances using the Builder pattern.
 
-4. PROTOTYPE -
+4. PROTOTYPE - A pattern used especially when resources and memory are limited. A clone method is defined and will be used to create either a shallow or deep copy of the original object.
+
+Terms:
+- **Prototype Interface:** This is the interface for the clone method.
+- **Prototype:** The object or product which implements the prototype interface/clone method.
+- **Client:** The client uses and creates the Prototype.
+
+Examples:
+- The `goat-example` showcases a prototype pattern to make clones of goats with different names and colors which can be altered by the client using a shallow copy.
 
 5. SINGLETON -
 
