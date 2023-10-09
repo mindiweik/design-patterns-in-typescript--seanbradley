@@ -71,6 +71,18 @@ Examples:
 
 Focuses more on how classes and objects are composed using the different structural techniques, and to form structures with more or altered flexibility.
 
+1. DECORATOR - This is best used in the case where you want to maintain the original object, but also add additional responsibilities.
+
+Terms:
+
+- **Component Interface:** An interface for objects.
+- **Component:** The object to be decorated.
+- **Decorator:** The class which applies the extra responsibilities to the component being decorated. This class also uses the same component interface.
+
+Examples:
+
+- The `example` showcases
+
 #### Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
