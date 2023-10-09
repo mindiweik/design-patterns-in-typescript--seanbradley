@@ -81,7 +81,7 @@ Terms:
 
 Examples:
 
-- The `example` showcases
+- The `hike-example` showcases the Decorator pattern used to provide the client with the updated elevation after they climb or descend a certain distance.
 
 #### Behavioral
 
