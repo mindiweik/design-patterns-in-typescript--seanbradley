@@ -83,6 +83,19 @@ Examples:
 
 - The `hike-example` showcases the Decorator pattern used to provide the client with the updated elevation after they climb or descend a certain distance.
 
+2. ADAPTER - When you do not have access to change an onject for your scenario, use an Adapter pattern to create an alternative intreface over an already existing interface.
+
+Terms:
+
+- **Target:** The domain-specific interface or class to be adapted.
+- **Adapter Interface:** The interface of the target that the adapter will need to implement.
+- **Adapter:** The concrete adapter class containing the adaption process.
+- **Client:** The client application that will use the Adapter.
+
+Examples:
+
+- The `example` showcases
+
 #### Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
