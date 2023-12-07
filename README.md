@@ -1,14 +1,16 @@
-## Personal Examples of Design Patterns in TypeScript
+# Personal Examples of Design Patterns in TypeScript
 
 This is my personal set of notes and examples created during the course [Design Patterns in TypeScript](https://www.udemy.com/course/design-patterns-typescript/) by Sean Bradley so that I may gain a better understanding of the concepts presented.
 
 ### Design Patterns Overview
 
-#### Creational
+## Creational
 
 Abstracts the instantiation process so that there is a logical separation between how objects are composed and finally represented.
 
-1. FACTORY - Adds an abstraction layer between the creation and instantiation of an object and allows the developer to dynamically choose classes to instantiate based on some logic. This increases the flexibility of the code for future use.
+### 1. FACTORY
+
+Adds an abstraction layer between the creation and instantiation of an object and allows the developer to dynamically choose classes to instantiate based on some logic. This increases the flexibility of the code for future use.
 
 Terms:
 
@@ -22,7 +24,9 @@ Examples:
 - The `cooking-example` folder showcases this pattern in the context of a client ordering some food from a restaurant.
 - The `onion-example` folder showcases this pattern more in the context of "onion architecture" which is a way of organizing code into layers of abstraction. I've been working to learn this recently as well so I wanted to give it a shot!
 
-2. ABSTRACT FACTORY - An additional layer of abstraction which can be added on top of other creational pattern implementations. It's essentially a factory for building out other "factories" or object creators. It's great for when you need to create a family of objects that are related to each other, and have similar but different implementations behind the scenes.
+### 2. ABSTRACT FACTORY
+
+An additional layer of abstraction which can be added on top of other creational pattern implementations. It's essentially a factory for building out other "factories" or object creators. It's great for when you need to create a family of objects that are related to each other, and have similar but different implementations behind the scenes.
 
 Terms:
 
@@ -36,7 +40,9 @@ Examples:
 
 - The `plants-example`showcases an abstract factory (using the factory method) to create a set of plant options. The client can request a type of flower or tree and the abstract factory will return the object type requested.
 
-3. BUILDER - A pattern allowing for the creation of complex objects separate from their representation. The same construction process can be used to create different representations of a simplified-as-possible complex object.
+### 3. BUILDER
+
+A pattern allowing for the creation of complex objects separate from their representation. The same construction process can be used to create different representations of a simplified-as-possible complex object.
 
 Terms:
 
@@ -49,7 +55,9 @@ Examples:
 
 - The `dance-example` showcases a builder pattern to create a set of dances using the Builder pattern.
 
-4. PROTOTYPE - A pattern used especially when resources and memory are limited. A clone method is defined and will be used to create either a shallow or deep copy of the original object.
+### 4. PROTOTYPE
+
+A pattern used especially when resources and memory are limited. A clone method is defined and will be used to create either a shallow or deep copy of the original object.
 
 Terms:
 
@@ -61,17 +69,21 @@ Examples:
 
 - The `goat-example` showcases a prototype pattern to make clones of goats with different names and colors which can be altered by the client using a shallow copy.
 
-5. SINGLETON - Use this pattern when you only require one object instance. This is not just a static class, but an instance of a class.
+### 5. SINGLETON
+
+Use this pattern when you only require one object instance. This is not just a static class, but an instance of a class.
 
 Examples:
 
 - The `pets-example` showcases a singleton pattern to hold an instance of the pets in my household at the time of this example.
 
-#### Structural
+## Structural
 
 Focuses more on how classes and objects are composed using the different structural techniques, and to form structures with more or altered flexibility.
 
-1. DECORATOR - This is best used in the case where you want to maintain the original object, but also add additional responsibilities.
+### 1. DECORATOR
+
+This is best used in the case where you want to maintain the original object, but also add additional responsibilities.
 
 Terms:
 
@@ -83,7 +95,22 @@ Examples:
 
 - The `hike-example` showcases the Decorator pattern used to provide the client with the updated elevation after they climb or descend a certain distance.
 
-#### Behavioral
+### 2. ADAPTER
+
+When you do not have access to change an onject for your scenario, use an Adapter pattern to create an alternative intreface over an already existing interface.
+
+Terms:
+
+- **Target:** The domain-specific interface or class to be adapted.
+- **Adapter Interface:** The interface of the target that the adapter will need to implement.
+- **Adapter:** The concrete adapter class containing the adaption process.
+- **Client:** The client application that will use the Adapter.
+
+Examples:
+
+- The `painting-example` showcases the usage of the Adapter pattern to create a painting for the client from either painter 1 or painter 2, even when painter 2 uses a different creation method.
+
+## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
 
