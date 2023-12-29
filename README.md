@@ -114,10 +114,6 @@ Examples:
 
 In instances where you may encounter complicated or abstract interfaces, you can use the Facade pattern to simplify the client experience.
 
-Examples:
-
-- The `-example` showcases
-
 ## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.

@@ -25,7 +25,7 @@ export default class GameAPI {
 
 	gameState(): GameState {
 		// Get the current game state
-		return this.#gameEngine.gameState()
+		return this.#gameEngine.getGameState()
 	}
 
 	getHistory(): { [id: string]: [number, string] } {

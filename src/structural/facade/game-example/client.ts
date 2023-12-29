@@ -24,7 +24,7 @@ async function facadeExample() {
 
 	await sleep(1000)
 
-	const HISTORY = gameAPI.getHistory(userId)
+	const HISTORY = gameAPI.getHistory()
 
 	console.log()
 	console.log('---- Reports History ----')
