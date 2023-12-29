@@ -110,6 +110,10 @@ Examples:
 
 - The `painting-example` showcases the usage of the Adapter pattern to create a painting for the client from either painter 1 or painter 2, even when painter 2 uses a different creation method.
 
+### 3. FACADE
+
+In instances where you may encounter complicated or abstract interfaces, you can use the Facade pattern to simplify the client experience.
+
 ## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
