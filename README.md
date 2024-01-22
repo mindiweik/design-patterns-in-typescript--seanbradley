@@ -114,6 +114,21 @@ Examples:
 
 In instances where you may encounter complicated or abstract interfaces, you can use the Facade pattern to simplify the client experience.
 
+### 4. BRIDGE
+
+Bridge is specifically used to refactor existing code to meet your needs when code is tightly coupled or the logic and abstraction thoroughly limit your options. By separating abstraction and implementation, you can effectively extend each independently.
+
+Terms:
+
+- **Abstraction Interface:** Common methods are described by the refined abstraction which also implements this interface.
+- **Refined Abstraction:** A class which is a _refinement_ of one or more ideas into a new class (or two). The new class(es) should implement the abstraction interface and assign the corresponding concrete implementer.
+- **Implementer Interface:** The interface implemented by the concrete implementers.
+- **Concrete Implementer:** The implementation logic for the refined abstraction to use.
+
+Examples:
+
+- The `example`showcases
+
 ## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
