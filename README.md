@@ -127,7 +127,7 @@ Terms:
 
 Examples:
 
-- The `example`showcases
+- The `poem-example`showcases the Bridge Pattern allowing a user to extend their capabilities to return famous lines of poetry based on the provided concrete implementer.
 
 ## Behavioral
 
