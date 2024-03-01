@@ -141,7 +141,7 @@ Terms:
 
 Examples:
 
-- The ` example` showcases
+- The `cookbook-example` showcases how one might use this pattern to build a set of recipes and potentially store them within different cookbooks.
 
 ## Behavioral
 
