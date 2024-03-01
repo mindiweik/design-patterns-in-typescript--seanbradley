@@ -129,6 +129,20 @@ Examples:
 
 - The `poem-example`showcases the Bridge Pattern allowing a user to extend their capabilities to return famous lines of poetry based on the provided concrete implementer.
 
+### 5. Composite
+
+The Composite pattern resembles a tree structure and offers a very modular approach to a hierarchical design.
+
+Terms:
+
+- **Component Interface:** A shared interface between all leaves and composite structures.
+- **Leaf:** A single object that can exist as an individual or a group within a composite.
+- **Composite:** A collection of leaves or composites or both.
+
+Examples:
+
+- The ` example` showcases
+
 ## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
