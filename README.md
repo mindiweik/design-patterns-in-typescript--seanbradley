@@ -143,6 +143,10 @@ Examples:
 
 - The `cookbook-example` showcases how one might use this pattern to build a set of recipes and potentially store them within different cookbooks.
 
+### 6. Flyweight Pattern
+
+
+
 ## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
