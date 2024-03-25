@@ -145,7 +145,17 @@ Examples:
 
 ### 6. Flyweight Pattern
 
+For a light approach, the Flyweight Pattern can provide an object containing shared attributes to save on memory or other resources.
 
+An _intrinsic_ flyweight contains the attributes which are internal and unique from other flyweights (like the letters of the alphabet). Whereas, an _extrinsic_ flyweight holds attributes used to present the flyweight based in its context (like the alignment of those letters).
+
+Terms:
+
+- **Flyweight Interface:** The interface describing intrinsic flyweight properties.
+- **Concrete Flyweight:** The actual flyweight object storing the intrinsic attributes instantiated when needed by the factory.
+- **Flyweight Factory:** This will create and manage the flyweight at runtime.
+- **Context:** Objects in your project that will use the Flyweight Factory.
+- **Client:** The client application that contains contexts.
 
 ## Behavioral
 

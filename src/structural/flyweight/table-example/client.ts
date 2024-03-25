@@ -27,4 +27,3 @@ TABLE.rows[2].columns[1].width = 15;
 TABLE.draw()
 
 console.log(`FlyweightFactory has ${FlyweightFactory.getCount()} flyweights`)
-console.log(TABLE)
