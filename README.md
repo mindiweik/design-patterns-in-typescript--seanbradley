@@ -157,6 +157,28 @@ Terms:
 - **Context:** Objects in your project that will use the Flyweight Factory.
 - **Client:** The client application that contains contexts.
 
+### 7. Proxy Pattern
+
+When you need an abstraction to act as an interface for another class or object, a proxy should be considered. This abstraction may add a layer of functionality, but ultimately it should closely resemble the initial interface so the client will be unaware of the abstraction. Also Known As: "Monkey Patching" or "Object Augmentation."
+
+Some types of proxies:
+
+- Virtual Proxy: This caches some of the real object and retrieves the rest when needed.
+- Remote Proxy: Relays messages to a real object existing in a different address space.
+- Protection Proxy: This adds an authentication layer over a real object.
+- Smart Reference: An object that can be overridden or it's internals replaced.
+
+Terms:
+
+- **Proxy:** A new object with an identical interface to that which it replaces. This could act as a placeholder or a gatekeeper.
+- **Subject Interface:** The interface implemented by both the Proxy and the Real Subject.
+- **Real Subject:** The real, original object the proxy is assuming.
+- **Client:** The client application using - and creating - the Proxy.
+
+Examples:
+
+- The `auth-example` showcases a simple proxy implementing a simplified authorization check when a client tries to access the original service.
+
 ## Behavioral
 
 Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
