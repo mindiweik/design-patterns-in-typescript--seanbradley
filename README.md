@@ -177,7 +177,7 @@ Terms:
 
 Examples:
 
-- The `example` showcases
+- The `auth-example` showcases a simple proxy implementing a simplified authorization check when a client tries to access the original service.
 
 ## Behavioral
 
